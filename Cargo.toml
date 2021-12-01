@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "common",
+    "01_sonar_sweep"
+]
+
+exclude = [
+    "template"
+]
