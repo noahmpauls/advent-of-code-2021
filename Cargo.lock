@@ -48,6 +48,13 @@ name = "common"
 version = "0.1.0"
 
 [[package]]
+name = "dive"
+version = "0.1.0"
+dependencies = [
+ "clap",
+]
+
+[[package]]
 name = "hermit-abi"
 version = "0.1.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"

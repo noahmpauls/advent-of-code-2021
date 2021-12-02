@@ -1,7 +1,8 @@
 [workspace]
 members = [
     "common",
-    "01_sonar_sweep"
+    "01_sonar_sweep",
+    "02_dive"
 ]
 
 exclude = [
