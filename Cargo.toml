@@ -2,7 +2,8 @@
 members = [
     "common",
     "01_sonar_sweep",
-    "02_dive"
+    "02_dive",
+    "03_binary_diagnostic"
 ]
 
 exclude = [
