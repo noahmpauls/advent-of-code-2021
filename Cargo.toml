@@ -4,7 +4,8 @@ members = [
     "01_sonar_sweep",
     "02_dive",
     "03_binary_diagnostic",
-    "04_giant_squid"
+    "04_giant_squid",
+    "05_hydrothermal_venture"
 ]
 
 exclude = [
