@@ -97,6 +97,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "lanternfish"
+version = "0.1.0"
+dependencies = [
+ "clap",
+]
+
+[[package]]
 name = "libc"
 version = "0.2.108"
 source = "registry+https://github.com/rust-lang/crates.io-index"
