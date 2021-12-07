@@ -6,7 +6,8 @@ members = [
     "03_binary_diagnostic",
     "04_giant_squid",
     "05_hydrothermal_venture",
-    "06_lanternfish"
+    "06_lanternfish",
+    "07_the_treachery_of_whales"
 ]
 
 exclude = [
