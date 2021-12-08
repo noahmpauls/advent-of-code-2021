@@ -1,0 +1,3 @@
+# Day 8: Seven Segment Search
+
+The main challenge of this day was part 2. My solution finds a mapping between sets of characters and numbers and uses that to decode numbers, instead of trying to worry about each individual segment. Finding the mapping involves applying a lot of manual rules that look terrible in code (at least in my implementation). I absolutely butchered some Rust iterators on this one.
