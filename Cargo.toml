@@ -9,7 +9,8 @@ members = [
     "06_lanternfish",
     "07_the_treachery_of_whales",
     "08_seven_segment_search",
-    "09_smoke_basin"
+    "09_smoke_basin",
+    "10_syntax_scoring"
 ]
 
 exclude = [
