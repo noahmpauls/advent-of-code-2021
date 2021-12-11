@@ -71,6 +71,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "dumbo_octopus"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+]
+
+[[package]]
 name = "giant_squid"
 version = "0.1.0"
 dependencies = [
