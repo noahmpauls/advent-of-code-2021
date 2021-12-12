@@ -11,7 +11,8 @@ members = [
     "08_seven_segment_search",
     "09_smoke_basin",
     "10_syntax_scoring",
-    "11_dumbo_octopus"
+    "11_dumbo_octopus",
+    "12_passage_pathing"
 ]
 
 exclude = [
