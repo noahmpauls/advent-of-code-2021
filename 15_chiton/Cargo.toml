@@ -1,0 +1,10 @@
+[package]
+name = "chiton"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+common = { path = "../common" }
+# regex = "1"
+clap = "2.33.0"
+priority-queue = "1.2.1"
