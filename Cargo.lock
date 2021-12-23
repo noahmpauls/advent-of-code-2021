@@ -339,6 +339,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "trench_map"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+]
+
+[[package]]
 name = "trick_shot"
 version = "0.1.0"
 dependencies = [
