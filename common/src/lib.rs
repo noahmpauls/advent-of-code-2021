@@ -1,6 +1,7 @@
 use std::collections::{HashMap};
 use std::hash::Hash;
 
+#[derive(Debug, Clone)]
 pub struct Counter<T> 
     where T: Eq + Hash
 {
@@ -66,6 +67,45 @@ impl<T> Counter<T>
                 (min_key, min_count)
             }
         }).0
+    }
+}
+
+impl<T> IntoIterator for Counter<T>
+    where T: Eq + Hash
+{
+    type Item = (T, u32);
+    type IntoIter = std::collections::hash_map::IntoIter<T, u32>;
+
+    fn into_iter(self) -> Self::IntoIter {
+        self.counts.into_iter()
+    }
+}
+
+impl<T> FromIterator<T> for Counter<T> 
+    where T: Eq + Hash
+{
+    fn from_iter<I: IntoIterator<Item=T>>(iter: I) -> Self {
+        let mut c = Self::new();
+
+        for i in iter {
+            c.add(i);
+        }
+
+        c
+    }
+}
+
+impl<T> FromIterator<(T, u32)> for Counter<T> 
+    where T: Eq + Hash
+{
+    fn from_iter<I: IntoIterator<Item=(T, u32)>>(iter: I) -> Self {
+        let mut c = Self::new();
+
+        for (i, count) in iter {
+            c.add_count(i, count);
+        }
+        
+        c
     }
 }
 

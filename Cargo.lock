@@ -88,6 +88,15 @@ name = "common"
 version = "0.1.0"
 
 [[package]]
+name = "dirac_dice"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+ "regex",
+]
+
+[[package]]
 name = "dive"
 version = "0.1.0"
 dependencies = [
