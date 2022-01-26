@@ -23,6 +23,7 @@ members = [
     "20_trench_map",
     "21_dirac_dice",
     "22_reactor_reboot",
+    "23_amphipod"
 ]
 
 exclude = [
